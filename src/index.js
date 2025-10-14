@@ -5,9 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Contador from './components/Contador';
 import DibujosComplejos from './components/DibujosComplejos';
+import DibujosComplejosRender from './components/DibujosComplejosRender';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <DibujosComplejosRender/>
     <DibujosComplejos/>
     <Contador inicio={4}/>
     <Contador inicio={9}/>
