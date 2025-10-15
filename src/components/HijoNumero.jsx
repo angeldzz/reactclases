@@ -9,7 +9,7 @@ class HijoNumero extends Component{
         return(
             <div>
                 <h1>Hijo Numero {this.props.numero}</h1>
-                <button type="button" onClick={this.sumarNumero}>Sumar Numeros</button>
+                <button type="button" onClick={this.sumarNumero}>Sumar Numero {this.props.numero}</button>
                 <br />
             </div>
         )
