@@ -1,23 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Contador from './components/Contador';
-import DibujosComplejos from './components/DibujosComplejos';
-import DibujosComplejosRender from './components/DibujosComplejosRender';
-import PadreDeportes from './components/PadreDeportes';
-import PadreNumeros from './components/PadreNumeros';
+// import Contador from './components/Contador';
+// import DibujosComplejos from './components/DibujosComplejos';
+// import DibujosComplejosRender from './components/DibujosComplejosRender';
+// import PadreDeportes from './components/PadreDeportes';
+// import PadreNumeros from './components/PadreNumeros';
+import Comics from './components/Comics';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PadreNumeros/>
-    <PadreDeportes/>
-    <DibujosComplejosRender/>
-    <DibujosComplejos/>
-    <Contador inicio={4}/>
-    <Contador inicio={9}/>
+    <Comics/>
+    {/* <PadreNumeros/> */}
+    {/* <PadreDeportes/> */}
+    {/* <DibujosComplejosRender/> */}
+    {/* <DibujosComplejos/> */}
+    {/* <Contador inicio={4}/> */}
+    {/* <Contador inicio={9}/> */}
   </React.StrictMode>
 );
 
